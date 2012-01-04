@@ -1,11 +1,11 @@
 <div id="footer">
   <a id="gotop" href="#" onclick="MGJS.goTop();return false;" i18n:translate="">Top</a>
 
-  <a id="powered" href="http://zojax.net" i18n:translate="">Powered by zojax</a>
+  <a id="powered" href="http://zojax.com" i18n:translate="">Powered by zojax</a>
   <div id="copyright" i18n:translate="">
     Copyright &copy; 2008-2009 <tal:block content="view/portal_title" i18n:name="portal_title"/></div>
   <div id="themeinfo" i18n:translate="">
-	  Theme inspired by WordPress iNove theme by 
+	  Theme inspired by WordPress iNove theme by
 	    <tal:block i18n:name="link">
 	      <a href="http://www.neoease.com/">mg12</a>
 	    </tal:block>

@@ -3,7 +3,7 @@
 <link rel="shortcut icon" tal:condition="not:view/faviconUrl"
       tal:attributes="href context/++resource++inove/img/favicon.gif" />
 
-<meta name="generator" content="zojax - http://zojax.net" />
+<meta name="generator" content="zojax - http://zojax.com" />
 
 <!-- Internet Explorer CSS Fixes -->
 <tal:iefixstart replace="structure string:&lt;!--[if lt IE 8]&gt;" />
@@ -19,5 +19,5 @@
 <!-- Disable IE6 image toolbar -->
 <meta http-equiv="imagetoolbar" content="no" />
 
-<tal:block tal:repeat="element view/elements" 
+<tal:block tal:repeat="element view/elements"
 	   tal:content="structure element/render" />
